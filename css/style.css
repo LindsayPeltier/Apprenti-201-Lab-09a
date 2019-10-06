@@ -18,14 +18,19 @@ header {
   margin-bottom: 30px;
 }
 
-nav{
+nav ul{
   float: right;
+  width: 70%;
+  display:table;
+  table-layout: fixed;
+  padding:0;
+  margin:0;
+  list-style:none;
 }
-
-li{
-  display: inline-block;
-  border: black solid;
-  margin: auto;
+nav ul li {
+  padding:0;
+  margin:0;
+  display:table-cell;
 }
 
 figure{
